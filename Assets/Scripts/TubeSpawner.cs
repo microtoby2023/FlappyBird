@@ -4,22 +4,16 @@ using UnityEngine;
 
 public class TubeSpawner : MonoBehaviour
 {
-    public Vector2 spawnPosition;
-    public GameObject tubePairPrefab;
+    public GameObject TubePairPrefab;
+
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        InvokeRepeating("spawnTube", 1.0f, 1.0f);
+        InvokeRepeating("SpawnTube", 1.0f, 1.0f);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void SpawnTube()
     {
-        
-    }
-
-    private void spawnTube()
-    {
-        Instantiate(this.tubePairPrefab);
+        Instantiate(this.TubePairPrefab, transform.position, transform.rotation);
     }
 }
