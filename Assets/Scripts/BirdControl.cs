@@ -9,6 +9,9 @@ public class BirdControl : MonoBehaviour
 
     public GameManager Gm;
 
+
+    private int score = 0;
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -27,5 +30,16 @@ public class BirdControl : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Gm.GameOver();
+    }
+
+
+    public void incrementScore()
+    {
+        this.score++;
+    }
+
+    public int getScore()
+    {
+        return this.score;
     }
 }
