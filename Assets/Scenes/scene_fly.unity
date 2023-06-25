@@ -1259,6 +1259,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TubePairPrefab: {fileID: 173035320}
+  OffsetY: 0.15
+  OffsetX: 0.2
+  SpawnInterval: 1
 --- !u!4 &1641897759
 Transform:
   m_ObjectHideFlags: 0
@@ -1436,7 +1439,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 377199852703786818, guid: 8f9667f35530644368391ec4cba6e727, type: 3}
       propertyPath: Speed
-      value: 1
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1176914768454906624, guid: 8f9667f35530644368391ec4cba6e727, type: 3}
       propertyPath: m_SortingOrder
