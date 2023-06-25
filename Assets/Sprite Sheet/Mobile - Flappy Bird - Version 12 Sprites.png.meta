@@ -269,6 +269,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: game_over
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 426
+        width: 97
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 5, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc66c7f412886242905c95b9fe5e21f
+      internalID: -1640214064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: play_button
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 361
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0acc3d308abf498a4882ca76e25f9
+      internalID: 545183943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -285,7 +327,9 @@ TextureImporter:
       bird_red_motion_1: 813434490
       bird_red_motion_2: 1051681523
       bird_red_motion_3: -1201149312
+      game_over: -1640214064
       ground: -1541447867
+      play_button: 545183943
       tube_down: 1998327030
       tube_top: -933257444
   mipmapLimitGroupName: 
