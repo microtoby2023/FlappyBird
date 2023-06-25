@@ -205,7 +205,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &5558251
 RectTransform:
@@ -926,6 +926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11a9d4ea3be2ff4eb42e9d98cc1dc6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BaseVelocity: 0.5
   Gm: {fileID: 854605390}
 --- !u!70 &772185770
 CapsuleCollider2D:

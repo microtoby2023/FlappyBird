@@ -5,7 +5,7 @@ using UnityEngine;
 public class BirdControl : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private float baseVelocity;
+    public float BaseVelocity;
 
     public GameManager Gm;
 
@@ -13,7 +13,6 @@ public class BirdControl : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        baseVelocity = 0.75f;
     }
 
     // Update if clled once per frame
@@ -21,7 +20,7 @@ public class BirdControl : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
-            rb.velocity = Vector2.up * baseVelocity;
+            rb.velocity = Vector2.up * BaseVelocity;
         }
     }
 
