@@ -413,13 +413,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.31
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 10
   field of view: 60
   orthographic: 1
-  orthographic size: 1.0880715
+  orthographic size: 1.1728209
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
