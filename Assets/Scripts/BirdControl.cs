@@ -9,8 +9,7 @@ public class BirdControl : MonoBehaviour
 
     public GameManager Gm;
 
-
-    private int score = 0;
+    public int Score { get; private set; }
 
     // Start is called before the first frame update
     private void Start()
@@ -18,7 +17,7 @@ public class BirdControl : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update if clled once per frame
+    // Update if called once per frame
     private void Update()
     {
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
@@ -35,11 +34,11 @@ public class BirdControl : MonoBehaviour
 
     public void incrementScore()
     {
-        this.score++;
+        this.Score++;
     }
 
     public int getScore()
     {
-        return this.score;
+        return this.Score;
     }
 }
